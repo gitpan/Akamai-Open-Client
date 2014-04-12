@@ -40,8 +40,11 @@
       },
       "test" : {
          "requires" : {
+            "Cwd" : "0",
+            "JSON" : "0",
             "Test::More" : "0",
-            "URI" : "0"
+            "URI" : "0",
+            "perl" : "v5.10.0"
          }
       }
    },
@@ -53,6 +56,6 @@
          "web" : "https://github.com/MegaMaddin/akamai-open-diagnostictools-perl"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

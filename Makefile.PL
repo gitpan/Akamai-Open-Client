@@ -38,10 +38,12 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
+    "Cwd" => 0,
+    "JSON" => 0,
     "Test::More" => 0,
     "URI" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -49,10 +51,12 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Cwd" => 0,
   "Data::Dumper" => 0,
   "Data::UUID" => 0,
   "Digest::SHA" => 0,
   "HTTP::Request" => 0,
+  "JSON" => 0,
   "LWP::UserAgent" => 0,
   "Log::Log4perl" => 0,
   "MIME::Base64" => 0,

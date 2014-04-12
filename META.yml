@@ -3,8 +3,11 @@ abstract: 'The Akamai Open API Perl client structure for authentication data'
 author:
   - 'Martin Probst <internet+cpan@megamaddin.org>'
 build_requires:
+  Cwd: 0
+  JSON: 0
   Test::More: 0
   URI: 0
+  perl: v5.10.0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -32,4 +35,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/MegaMaddin/akamai-open-diagnostictools-perl
-version: 0.01
+version: 0.02
