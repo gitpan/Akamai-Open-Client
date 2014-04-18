@@ -41,9 +41,10 @@ my %WriteMakefileArgs = (
     "Cwd" => 0,
     "JSON" => 0,
     "Test::More" => 0,
+    "Test::Pod" => "1.41",
     "URI" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -64,6 +65,7 @@ my %FallbackPrereqs = (
   "MooseX::Singleton" => 0,
   "POSIX" => 0,
   "Test::More" => 0,
+  "Test::Pod" => "1.41",
   "URI" => 0,
   "URL::Encode" => 0,
   "constant" => 0,

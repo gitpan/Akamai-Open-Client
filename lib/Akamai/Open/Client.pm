@@ -1,12 +1,9 @@
 package Akamai::Open::Client;
 BEGIN {
-    $Akamai::Open::Client::AUTHORITY = 'cpan:PROBST';
-}
-{
-    $Akamai::Open::Client::VERSION = '0.02';
+  $Akamai::Open::Client::AUTHORITY = 'cpan:PROBST';
 }
 # ABSTRACT: The Akamai Open API Perl client structure for authentication data
-
+$Akamai::Open::Client::VERSION = '0.03';
 use strict;
 use warnings;
 
@@ -28,8 +25,11 @@ __END__
 
 =head1 NAME
 
-Akamai::Open::Client - The I<Akamai::Open> API Perl client structure 
-for client specific authentication data.
+Akamai::Open::Client - The Akamai Open API Perl client structure for authentication data
+
+=head1 VERSION
+
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -65,4 +65,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

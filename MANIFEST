@@ -18,4 +18,6 @@ t/0004-request.t
 t/0005-edgegridv1.t
 t/0006-signedrequest.t
 t/0007-signedrequest-extended.t
+t/release-no-tabs.t
+t/release-pod-syntax.t
 t/testdata.json

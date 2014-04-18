@@ -1,13 +1,9 @@
 package Akamai::Open::Debug;
-
 BEGIN {
-    $Akamai::Open::Debug::AUTHORITY = 'cpan:PROBST';
-}
-{
-    $Akamai::Open::Debug::VERSION = '0.02';
+  $Akamai::Open::Debug::AUTHORITY = 'cpan:PROBST';
 }
 # ABSTRACT: Debugging interface for the Akamai Open API Perl clients
-
+$Akamai::Open::Debug::VERSION = '0.03';
 use strict;
 use warnings;
 
@@ -60,8 +56,11 @@ __END__
 
 =head1 NAME
 
-Akamai::Open::Debug - Debugging interface for the L<Akamai::Open> API 
-Perl clients.
+Akamai::Open::Debug - Debugging interface for the Akamai Open API Perl clients
+
+=head1 VERSION
+
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -117,4 +116,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

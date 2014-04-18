@@ -6,6 +6,7 @@ build_requires:
   Cwd: 0
   JSON: 0
   Test::More: 0
+  Test::Pod: 1.41
   URI: 0
   perl: v5.10.0
 configure_requires:
@@ -34,5 +35,6 @@ requires:
   strict: 0
   warnings: 0
 resources:
-  repository: https://github.com/MegaMaddin/akamai-open-diagnostictools-perl
-version: 0.02
+  repository: https://github.com/MegaMaddin/akamai-open-client-perl
+version: 0.03
+x_authority: cpan:PROBST

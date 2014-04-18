@@ -1,13 +1,9 @@
 package Akamai::Open::Request;
-
 BEGIN {
-    $Akamai::Open::Request::AUTHORITY = 'cpan:PROBST';
-}
-{
-    $Akamai::Open::Request::VERSION = '0.02';
+  $Akamai::Open::Request::AUTHORITY = 'cpan:PROBST';
 }
 # ABSTRACT: The request handler for the Akamai Open API Perl clients
-
+$Akamai::Open::Request::VERSION = '0.03';
 use strict;
 use warnings;
 
@@ -51,6 +47,10 @@ __END__
 
 Akamai::Open::Request - The request handler for the Akamai Open API Perl clients
 
+=head1 VERSION
+
+version 0.03
+
 =head1 ABOUT
 
 I<Akamai::Open::Request> is the internal used request 
@@ -68,4 +68,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

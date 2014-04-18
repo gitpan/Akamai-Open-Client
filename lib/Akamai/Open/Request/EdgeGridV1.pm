@@ -1,13 +1,9 @@
 package Akamai::Open::Request::EdgeGridV1;
-
 BEGIN {
-    $Akamai::Open::Request::EdgeGridV1::AUTHORITY = 'cpan:PROBST';
-}
-{
-    $Akamai::Open::Request::EdgeGridV1::VERSION = '0.02';
+  $Akamai::Open::Request::EdgeGridV1::AUTHORITY = 'cpan:PROBST';
 }
 # ABSTRACT: Creates the signed authentication header for the Akamai Open API Perl clients
-
+$Akamai::Open::Request::EdgeGridV1::VERSION = '0.03';
 use strict;
 use warnings;
 
@@ -146,8 +142,11 @@ __END__
 
 =head1 NAME
 
-Akamai::Open::Request::EdgeGridV1 - Creates the signed authentication
-header for the I<Akamai::Open> API Perl clients.
+Akamai::Open::Request::EdgeGridV1 - Creates the signed authentication header for the Akamai Open API Perl clients
+
+=head1 VERSION
+
+version 0.03
 
 =head1 ABOUT
 
@@ -170,4 +169,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
